@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>int.esa.ssa.w3c</groupId>
+  <artifactId>xhtml-v_1_0-strict</artifactId>
+  <versioning>
+    <release>1.1.0</release>
+    <versions>
+      <version>1.1.0</version>
+    </versions>
+    <lastUpdated>20180314215619</lastUpdated>
+  </versioning>
+</metadata>
