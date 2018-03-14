@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>org.n52.wps</groupId>
-  <artifactId>52n-wps-eoc</artifactId>
+  <artifactId>52n-wps-client-lib</artifactId>
   <version>4.0.0-beta.4-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20180314.101955</timestamp>
+      <timestamp>20180314.102042</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20180314101955</lastUpdated>
+    <lastUpdated>20180314102042</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>4.0.0-beta.4-20180314.101955-1</value>
-        <updated>20180314101955</updated>
+        <value>4.0.0-beta.4-20180314.102042-1</value>
+        <updated>20180314102042</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>4.0.0-beta.4-20180314.101955-1</value>
-        <updated>20180314101955</updated>
+        <value>4.0.0-beta.4-20180314.102042-1</value>
+        <updated>20180314102042</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
