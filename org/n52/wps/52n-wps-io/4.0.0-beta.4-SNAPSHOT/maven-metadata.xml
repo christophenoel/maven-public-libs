@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>org.n52.wps</groupId>
-  <artifactId>52n-wps-commons</artifactId>
+  <artifactId>52n-wps-io</artifactId>
   <version>4.0.0-beta.4-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20180314.101019</timestamp>
+      <timestamp>20180314.101141</timestamp>
       <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20180314101019</lastUpdated>
+    <lastUpdated>20180314101141</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>4.0.0-beta.4-20180314.101019-2</value>
-        <updated>20180314101019</updated>
+        <value>4.0.0-beta.4-20180314.101141-2</value>
+        <updated>20180314101141</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>4.0.0-beta.4-20180314.101019-2</value>
-        <updated>20180314101019</updated>
+        <value>4.0.0-beta.4-20180314.101141-2</value>
+        <updated>20180314101141</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>tests</classifier>
         <extension>jar</extension>
-        <value>4.0.0-beta.4-20180314.101019-2</value>
-        <updated>20180314101019</updated>
+        <value>4.0.0-beta.4-20180314.101141-2</value>
+        <updated>20180314101141</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
