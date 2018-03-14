@@ -6,9 +6,9 @@
 		<version>4.0.0-beta.4-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>52n-wps-database</artifactId>
-	<name>52North WPS Database</name>
-	<description>Database access facilities for the WPS service.</description>
+	<artifactId>52n-wps-algorithm-impl</artifactId>
+	<name>52North WPS Algorithm Implementations</name>
+	<description>Implementations of geospatial algorithms for raster andvector data.</description>
 	<build>
 		<resources>
 			<resource>
@@ -18,7 +18,6 @@
 				</includes>
 			</resource>
 		</resources>
-
 		<plugins>
 			<plugin>
 				<groupId>com.mycila</groupId>
@@ -40,50 +39,34 @@
 		</plugins>
 	</build>
 	<dependencies>
-        <dependency>
-            <groupId>org.n52.wps</groupId>
-            <artifactId>52n-wps-commons</artifactId>
-        </dependency>
 		<dependency>
-			<artifactId>52n-xml-wps-t-v20</artifactId>
-			<groupId>org.n52.wps</groupId>
-		</dependency>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.derby</groupId>
-			<artifactId>derby</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-		    <groupId>org.slf4j</groupId>
-		    <artifactId>slf4j-api</artifactId>
-	  	</dependency>		
-	  	<dependency>
-			<artifactId>52n-xml-ows-v20</artifactId>
-			<groupId>org.n52.sensorweb</groupId>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>52n-wps-algorithm</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>52n-wps-configuration-api</artifactId>
+			<artifactId>52n-wps-io-impl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>52n-wps-io</artifactId>
 		</dependency>
 		<dependency>
 			<artifactId>xmlbeans</artifactId>
 			<groupId>org.apache.xmlbeans</groupId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+		<dependency>
+			<artifactId>jts</artifactId>
+			<groupId>com.vividsolutions</groupId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+            <scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>org.n52.wps</groupId>
-  <artifactId>52n-wps-database</artifactId>
+  <artifactId>52n-wps-algorithm-impl</artifactId>
   <version>4.0.0-beta.4-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20180314.101632</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20180314.101736</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20180314101632</lastUpdated>
+    <lastUpdated>20180314101736</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>4.0.0-beta.4-20180314.101632-2</value>
-        <updated>20180314101632</updated>
+        <value>4.0.0-beta.4-20180314.101736-1</value>
+        <updated>20180314101736</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>4.0.0-beta.4-20180314.101632-2</value>
-        <updated>20180314101632</updated>
+        <value>4.0.0-beta.4-20180314.101736-1</value>
+        <updated>20180314101736</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
