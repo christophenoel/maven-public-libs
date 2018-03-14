@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.n52.wps</groupId>
-  <artifactId>52n-wps-configuration-api</artifactId>
+  <artifactId>52n-wps-parent</artifactId>
   <versioning>
     <versions>
       <version>4.0.0-beta.4-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20180314132314</lastUpdated>
+    <lastUpdated>20180314132621</lastUpdated>
   </versioning>
 </metadata>
