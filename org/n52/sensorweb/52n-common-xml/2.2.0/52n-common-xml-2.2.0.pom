@@ -121,8 +121,9 @@
         <module>52n-xml-wfs-v20</module>
         <module>52n-xml-wms-v130</module>
         <module>52n-xml-wns-v0.0.9</module>
+         -->
         <module>52n-xml-wps-v100</module>
-        -->
+       
         <module>52n-xml-wps-v20</module>
         <module>52n-xml-wps-t-v20</module>
         <module>52n-xml-wps-t-eoc</module>
@@ -158,6 +159,7 @@
         <module>52n-xml-inspire-tn-v40</module>
         <module>52n-xml-portele</module>
         -->
+       
     </modules>
     <properties>
         <github.global.server>github.spacebel</github.global.server>
@@ -677,43 +679,39 @@
             <!-- ==================================================== -->
             <!-- =========== PLUGINS ACTIVE BY DEFAULT ============== -->
             <!-- ==================================================== -->
-
-			 <plugin>
-                        <artifactId>maven-deploy-plugin</artifactId>
-                        <version>2.8.2</version>
-                        <configuration>
-                            <altDeploymentRepository>internal.repo::default::file://D:/env/m2/maven-public-libs</altDeploymentRepository>
-                        </configuration>
-                    </plugin>
-                    <plugin>
-                        <groupId>com.github.github</groupId>
-                        <artifactId>site-maven-plugin</artifactId>
-                        <version>0.12</version>
-                        <configuration>
-                    
-                            <message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
-                            <project.url>https://github.com/spacebel/maven-public-libs.git</project.url>
-                            <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
-                            <outputDirectory>D:/env/m2/maven-public-libs</outputDirectory> <!-- matches distribution management repository url above -->
-                            <branch>refs/heads/master</branch>                       <!-- remote branch name -->
-                            <includes>
-                                <include>**/*</include>
-                            </includes>
-                            
-                            <repositoryName>maven-public-libs</repositoryName>      <!-- github repo name -->
-                            <repositoryOwner>spacebel</repositoryOwner>    <!-- github username  -->
-                    
-                        </configuration>
-                        <executions>
-                            <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
-                            <execution>
-                                <goals>
-                                    <goal>site</goal>
-                                </goals>
-                                <phase>deploy</phase>
-                            </execution>
-                        </executions>
-                    </plugin>
+            <plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8.2</version>
+                <configuration>
+                    <altDeploymentRepository>internal.repo::default::file://D:/env/m2/maven-public-libs</altDeploymentRepository>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.github.github</groupId>
+                <artifactId>site-maven-plugin</artifactId>
+                <version>0.12</version>
+                <configuration>
+                    <message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
+                    <project.url>https://github.com/spacebel/maven-public-libs.git</project.url>
+                    <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
+                    <outputDirectory>D:/env/m2/maven-public-libs</outputDirectory> <!-- matches distribution management repository url above -->
+                    <branch>refs/heads/master</branch>                       <!-- remote branch name -->
+                    <includes>
+                        <include>**/*</include>
+                    </includes>
+                    <repositoryName>maven-public-libs</repositoryName>      <!-- github repo name -->
+                    <repositoryOwner>spacebel</repositoryOwner>    <!-- github username  -->
+                </configuration>
+                <executions>
+                    <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
+                    <execution>
+                        <goals>
+                            <goal>site</goal>
+                        </goals>
+                        <phase>deploy</phase>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
